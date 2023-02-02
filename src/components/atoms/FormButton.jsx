@@ -1,8 +1,8 @@
 import "../../assets/styles/Buttons.css"
 
-function FormButton({description}) {
+function FormButton({description, event}) {
     return ( 
-        <button>{description}</button>
+        <button onClick={event}>{description}</button>
      );
 }
 

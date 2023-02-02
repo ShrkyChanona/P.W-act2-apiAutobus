@@ -87,8 +87,8 @@ function FormAutobus() {
                         <label htmlFor="Numero de licencia">Numero de licencia</label>
                         <input type="text" readOnly="readonly" value={licenceNumber} name="numeroL" />
                     </div>
-                    <button onClick={handlerClick}>Alta de autobus</button>
-                    {/* <FormButton description="Alta de autobus" onClick={handlerLoad} ></FormButton> */}
+                    {/* <button onClick={handlerClick}>Alta de autobus</button> */}
+                    <FormButton description="Alta de autobus" event={handlerClick} ></FormButton>
                 </form>
                 
             </div>
