@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    border: 2px black solid;
+    width: 40vh;
+    height: 35vh;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: gray;
+}
+
+.reg{
+    margin: 5%;
+}
+label{
+    display: flex;
+    flex-direction: column;
+}

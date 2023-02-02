@@ -1,0 +1,25 @@
+.container-autobus{
+    text-align: center;
+    border: 2px black solid;
+    width: 60vh;
+    height: 45vh;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: gray;
+}
+
+.data{
+    display: flex;
+}
+.row-camps{
+    width: 50%;
+    margin: 2%;
+}
+
+input{
+    width: 80%;
+}
+
+.camps{
+    width: 80%;
+}
